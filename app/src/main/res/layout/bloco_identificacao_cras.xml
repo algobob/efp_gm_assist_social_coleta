@@ -2,7 +2,7 @@
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="fill_parent"
     tools:showIn="@layout/content_equipamentos">
@@ -12,8 +12,7 @@
         android:id="@+id/TextViewBloco"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Identificação do CRAS"
-        android:textSize="10pt"></TextView>
+        android:text="Identificação do CRAS" />
 
     <EditText
         android:id="@+id/EditTextNome"
@@ -78,7 +77,7 @@
         android:inputType="textEmailAddress"
         android:layout_width="fill_parent"></EditText>
 
-    <RadioGroup
+    <RadioGroup android:paddingTop="10dp"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -114,7 +113,8 @@
     <RadioGroup
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingTop="10dp">
 
         <TextView
             android:id="@+id/header2"
@@ -147,7 +147,8 @@
     <RadioGroup
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingTop="10dp">
 
         <TextView
             android:id="@+id/header3"
