@@ -1,0 +1,19 @@
+{
+  "name": "efp.assistencia.coleta",
+  "version": "1.0.0",
+  "description": "Hybrid App for EFP Assistencia Social group",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algobob/efp_gm_assist_social_coleta.git"
+  },
+  "author": "Anderson Luiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/algobob/efp_gm_assist_social_coleta/issues"
+  },
+  "homepage": "https://github.com/algobob/efp_gm_assist_social_coleta#readme"
+}
